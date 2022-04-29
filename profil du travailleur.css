@@ -1,0 +1,53 @@
+/*BOUTHAYNA*/
+header > nav{
+  font-weight: bold;
+  font-family: Lucida Handwriting;
+  font-size: 15px;
+  margin-left: 300px;
+
+  margin-top: 40px;
+}
+nav > a{
+  color:black;
+  padding-left: 20px;
+}
+body {
+background-position: center;
+background-image: url("images/b3.PNG");
+background-size: 800px 1100px;
+background-attachment: scroll;
+background-repeat: no-repeat;
+}
+p {
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+font-family:Lucida Handwriting ;
+direction:ltr;
+}
+.all{
+  margin-left: 300px;
+}
+.container{
+  height:255px;
+  width:300px;
+position: relative;
+bottom:40px;
+  background-color: grey;
+  margin-left: 700px;
+}
+.msg{
+  font-weight:small;
+  font-size: 20px;
+  font-family: Lucida Handwriting ;
+  text-align: center;
+
+}
+.header{
+  border: 1px solid black;
+  width:298px;
+  height:50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}

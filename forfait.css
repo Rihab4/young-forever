@@ -1,0 +1,94 @@
+/*RIHAB*/
+.barre{
+  margin-right: 12px;
+  font-weight: 40px;
+  color: black;
+  font-size: 20px;
+}
+.top{
+  margin-left: 40px;
+  margin-top: 70px;
+
+}
+.barre:hover{
+  background-color: #DA70D6;
+  border-radius: 5px;
+  height: 10px;
+
+}
+.image{
+  margin-left: 320px;
+  width: 70px;
+  margin-top: 15px;
+  border:3px ;
+  align: left;
+  height: 90px;
+  background-image: url("logo.jpg")
+}
+body{
+  background-image: url("images/forfait.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 1100px;
+}
+
+.bouttons{
+  margin-top: 100px;
+  margin-bottom: 25px;
+  margin-left: 350px;
+}
+.style{
+  font-style: oblique;
+  color: black;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  background-color: white;
+  width: 400px;
+  height: 50px;
+  text-align: center ;
+  font-size:  13px;
+  border-color: solid black;
+  text-align: left;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: cursive;
+}
+.style-sel{
+  font-style: oblique;
+  color: white;
+  margin-left: 50px;
+  margin-top: 45px;
+  width: 100px;
+  height: 30px;
+  text-align: center ;
+  font-size: 15px;
+  background-color: lightgrey ;
+}
+
+.style_sel_all{
+  margin-top: 11px;
+}
+.style-sel:hover{
+background-color: #E93A47;
+}
+.réseaux_sociaux{
+  margin-left: 500px;
+}
+.réseau{
+  width:30px;
+  height: 30px;
+}
+.foot{
+  margin-top: 100px;
+}
+.adress{
+  margin-left: 300px;
+  font-size: 10px;
+}
+a[href^="mailto"]::before {
+    content: "📧";
+}
+
+a[href^="tel"]::before {
+    content: "📞";
+}

@@ -1,0 +1,85 @@
+/*BOUTHAYNA*/
+.hi{
+
+  margin-top: 10px;
+  margin-left: -200px;
+
+}
+.hi2{
+  text-align: center;
+  margin-left: 300px;
+  font-weight: 18px;
+}
+.team{
+  margin-left: 650px;
+  margin-top: 90px;
+  font-weight: 25px;
+  color: black bold;
+}
+.head{
+  margin-top: 50px;
+}
+header{
+  font-weight: bold;
+  font-family: Lucida Handwriting;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+nav > a{
+  color:black;
+  padding-left: 20px;
+}
+body {
+background-position: center;
+background-image: url("images/fond.png");
+background-size: 800px 1100px;
+background-attachment: scroll;
+background-repeat: no-repeat;
+text-align: center;
+}
+img{
+  width:100px;
+  height: 100px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 350px;
+}
+h1{
+    color:#CC66CC;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    right:200px;
+    bottom: 40px;
+  }
+.first{
+  color:#CC66CC;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+#desc {
+  padding-left: 320px;
+}
+.fot{
+  display: inline-block;
+  padding-top: 80px;
+  margin-left: 50px;
+}
+footer > p{
+  padding-right: 200px;
+}
+.me{
+  display:none;
+ margin-right: 300px;
+ margin-left: 300px;
+}
+div:hover .me{
+  display: block;
+}
+div{
+  margin-right: 480px;
+}

@@ -1,0 +1,172 @@
+/*RIHAB*/
+.barre{
+  margin-right: 12px;
+  font-weight: 40px;
+  color: black;
+  font-size: 20px;
+}
+body{
+  background-image: url("images/back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 1100px;
+}
+.top{
+  margin-left: 40px;
+  margin-top: 70px;
+
+}
+.barre:hover{
+  background-color: #DA70D6;
+  border-radius: 5px;
+  height: 10px;
+
+}
+.prod
+{
+width:50px;
+height: 40px;
+}
+.image{
+  margin-left: 320px;
+  width: 70px;
+  margin-top: 15px;
+  border:3px ;
+  align: left;
+  height: 90px;
+  background-image: url("logo.jpg")
+}
+.les_produits{
+  margin-top: 80px;
+  margin-left: 350px;
+}
+.prod{
+  margin-right:65px;
+  width:100px;
+  height:100px;
+}
+.prix{
+  border-color: solid black;
+  font-size:  9px;
+}
+.style{
+  font-style: oblique;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  background-color: white;
+  width: 90px;
+  height: 20px;
+  text-align:left;
+  font-size:  9px;
+  border-color: solid black;
+  text-align: left;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.style:hover{
+  background-color: #A52A2A;
+}
+.style:visited{
+  background-color: #4B0082;
+}
+
+.chat_photo
+{
+margin-left: 300px;
+width:50px;
+height: 50px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: 40px;
+
+}
+.icon_hi{
+  width:50px;
+  height: 50px;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  height:100px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-bottom: -110px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  left: 50%;
+
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.réseaux_sociaux{
+  margin-left: 500px;
+}
+.réseau{
+  width:30px;
+  height: 30px;
+}
+.foot{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.adresse{
+  margin-left: 300px;
+  font-size: 10px;
+}
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+  content: "📞 ";
+  }
+.liv {
+  margin-left: 350px;
+  margin-top: 20px;
+
+  font-weight: 7px;
+  color: black;
+}

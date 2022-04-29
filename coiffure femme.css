@@ -1,0 +1,97 @@
+/*RIHAB*/
+.barre{
+  margin-right: 12px;
+  font-weight: 40px;
+  color: black;
+  font-size: 20px;
+}
+.barre:hover{
+  background-color: #DA70D6;
+  border-radius: 5px;
+  height: 10px;
+
+}
+.top{
+  margin-left: 40px;
+  margin-top: 70px;
+
+}
+.image{
+  margin-left: 320px;
+  width: 70px;
+  margin-top: 15px;
+  border:3px ;
+  align: left;
+  height: 90px;
+
+}
+body{
+  background-image: url("images/coiff_femme.jpg");
+  padding-top: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 1100px;
+}
+.bouttons{
+  margin-left:400px;
+  margin-top: 150px;
+  font-size:10px;
+  font-style: oblique;
+  font-weight: bold;
+
+
+}
+.style{
+  border: solid orange 3px;
+  width:350px;
+  height: 65px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: black;
+  font-family: serif;
+  text-align:left;
+  font-style: oblique;
+  font-size: 15px;
+
+
+}
+.style_sel_all
+{
+  margin-left:50px;
+  margin-top: 180px;
+  font-size:10px;
+  font-style: oblique;
+}
+.style-sel{
+  margin-bottom: 65px;
+  font-weight: bold;
+  color: blue;
+  font-style: oblique;
+  color: white;
+  background-color:#2980B9 		;
+  border: solid #2980B9 ;
+  border-radius:  3px;
+
+}
+.réseaux_sociaux{
+  margin-left:500px;
+}
+.réseau{
+  width:30px;
+  height: 30px;
+}
+.foot{
+  margin-top: 100px;
+
+}
+.adresse{
+  margin-left: 300px;
+  font-size: 10px;
+}
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}

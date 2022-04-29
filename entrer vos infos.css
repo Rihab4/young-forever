@@ -1,0 +1,36 @@
+/*BOUTHAYNA*/
+html,body {
+background-position: center;
+background-image: url("images/b7.png");
+background-size: 800px 1100px;
+background-attachment: scroll;
+background-repeat: no-repeat;
+text-align: center;
+}
+
+header{
+  font-weight: bold;
+  font-family: Lucida Handwriting;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+nav > a{
+  color:black;
+  padding-left: 20px;
+}
+form{
+  margin-left: 100px;
+  margin-top: 140px;
+  margin-right: 150px;
+}
+.panier{
+  margin-left: 350px;
+  margin-top: 60px;
+  background-color: red;
+}
+.livr{
+  margin-left: 600px;
+  margin-top: 100px
+}

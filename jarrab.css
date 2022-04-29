@@ -1,0 +1,10 @@
+/*.one h1:first-child{
+  color:blue;
+}*/
+div>h1{
+  color: red;
+}
+h1:last-child{
+  font-style: italic;
+  color: red;
+}
